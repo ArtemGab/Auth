@@ -1,0 +1,15 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.user-name {
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}

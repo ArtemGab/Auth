@@ -1,0 +1,31 @@
+.login > .form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px 100px;
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.login > .form > .title {
+    padding: 15px 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #0b5ed7;
+}
+.login > .form > .warn {
+    position: absolute;
+    top: 258px;
+    font-size: 13px;
+    color: #F43B3B;
+}
+.login > .form > .buttons-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.login > .form > .buttons-group > button:last-child {
+    margin-top: 10px;
+}

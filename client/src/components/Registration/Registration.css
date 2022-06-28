@@ -1,0 +1,31 @@
+.registration > .form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px 100px;
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.registration > .form > .title {
+    padding: 15px 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #198754;
+}
+.registration > .form > .warn {
+    position: absolute;
+    top: 264px;
+    font-size: 13px;
+    color: #F43B3B;
+}
+.registration > .form > .back {
+    position: absolute;
+    top: 10px;
+    left: -100px;
+}
+.registration > .form > .registration {
+    margin-top: 30px;
+}
